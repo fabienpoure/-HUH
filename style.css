@@ -1,13 +1,17 @@
 :root{
-  --bg:#7A5B44;
+  --bg:#1e2420;
   --dark:#231F1D;
   --text:#E9D9C7;
-  --accent:#C64A3A;
+  --accent:#f15a19;
   --white:#fff;
   --maxw:1100px;
 }
 *{box-sizing:border-box}
-body{margin:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:var(--text)}
+body{
+    margin:0;
+    font-family:Inter,system-ui,Arial;
+    background:var(--bg);
+    color:var(--text)}
 .site-header{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;max-width:var(--maxw);margin:0 auto}
 .logo{font-weight:800;font-size:20px;color:var(--white)}
 .nav a{color:var(--text);margin-left:18px;text-decoration:none;font-weight:600}
@@ -66,7 +70,7 @@ body{margin:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:var(-
     margin-top: 0px;
     padding:0 20px}
 .card{
-    background:rgb(153 115 84);
+    background:rgb(155 111 11);
     padding:18px;
     border-radius:12px;
     text-align: center;
@@ -80,7 +84,7 @@ body{margin:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:var(-
     padding: 0 20px;}
 .step{  
     flex: 1;
-    background: rgb(118 75 45);
+    background: rgb(197 157 65);
     padding: 20px;
     border-radius: 12px;
     text-align: center;
@@ -90,7 +94,7 @@ body{margin:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:var(-
     max-width:600px;
     margin:24px auto;
     padding:20px;
-    background:rgb(153 115 84);
+    background:rgb(173 150 96);
     border-radius:12px;
     text-align:center}
 .site-footer{
