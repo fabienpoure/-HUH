@@ -1,0 +1,101 @@
+:root{
+  --bg:#7A5B44;
+  --dark:#231F1D;
+  --text:#E9D9C7;
+  --accent:#C64A3A;
+  --white:#fff;
+  --maxw:1100px;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:var(--text)}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;max-width:var(--maxw);margin:0 auto}
+.logo{font-weight:800;font-size:20px;color:var(--white)}
+.nav a{color:var(--text);margin-left:18px;text-decoration:none;font-weight:600}
+.hero{
+        display:flex;
+        gap:40px;
+        align-items:center;
+        justify-content:space-between;
+        max-width:var(--maxw);
+        margin:40px auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding:0px}
+.title{font-size:48px;margin:0;color:var(--white);font-weight:900}
+.tagline{font-size:18px;margin:12px 0 20px;color:var(--text)}
+.cta-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    }
+.cta-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    }
+.btn-primary{
+    background:var(--accent);
+    color:var(--white);
+    padding:12px 18px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:700
+    }
+.btn-secondary{
+    background:var(--accent);
+    color:var(--white);
+    padding:12px 18px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:700
+    }
+.wallet{
+    margin: 40px;
+    }
+.hero-mascot img{
+    max-width:100%;
+    width:100%;
+    height:auto;
+    border-radius:18px;
+    border:6px solid rgba(0,0,0,0.14)}
+.card-grid{
+    display:flex;
+    gap:16px;max-width:var(--maxw);
+    margin:20px auto;
+    margin-top: 0px;
+    padding:0 20px}
+.card{
+    background:rgb(153 115 84);
+    padding:18px;
+    border-radius:12px;
+    text-align: center;
+    flex:1}
+.roadmap{  
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: var(--maxw);
+    margin: 40px auto;
+    padding: 0 20px;}
+.step{  
+    flex: 1;
+    background: rgb(118 75 45);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--text);}
+.mint{
+    max-width:600px;
+    margin:24px auto;
+    padding:20px;
+    background:rgb(153 115 84);
+    border-radius:12px;
+    text-align:center}
+.site-footer{
+    text-align:center;
+    padding:18px 12px;
+    color:rgba(233,217,199,0.8);
+    font-size:13px}
+
